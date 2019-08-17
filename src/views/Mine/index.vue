@@ -1,24 +1,32 @@
 <template>
 
-  <div>
-      hello Mine
-  </div>
+<div id='main'>
+    <Header title="我的"/>
+    <Login />
+    <TabBar/>
+</div>
 
 </template>
 
 
 <script>
+
+import Header from '@/components/Header'
+import TabBar from '@/components/TabBar'
+import Login from '@/components/Login'
+
  export default {
-   data () {
-     return {
-     };
-   },
-   methods: {}
+   name : 'Mine',
+   components : {
+      Header,
+      TabBar,
+      Login
+   }
  }
 
 </script>
 
 
-<style lang='scss' scoped>
+<style scoped>
 
 </style>

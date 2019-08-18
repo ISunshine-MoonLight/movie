@@ -10,7 +10,7 @@
         <i class="iconfont icon-yingyuan"></i>
         <p>影院</p>
       </router-link>
-      <router-link tag="li" to="mine">
+      <router-link tag="li" to="/mine">
         <i class="iconfont icon-wode"></i>
         <p>我的</p>
       </router-link>

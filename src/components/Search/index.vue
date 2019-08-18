@@ -51,7 +51,11 @@
                var movie = res.data.data.movies;
                if(msg&&movie){
                    this.moviesList = res.data.data.movies.list;
-               }
+               }else if(newVal === ''){
+                   this.moviesList = [];
+               }else{
+                   alert('查无此内容！');
+               };  
            })
        }
    }
